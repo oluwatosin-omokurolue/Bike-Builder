@@ -1,0 +1,223 @@
+body {
+  background-color: #868279;
+}
+
+.container {
+  padding: 5px;
+  display: flex;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+}
+
+.bicycle {
+  background-color: #aea9a1;
+  padding: 20px;
+}
+
+.bikey {
+  height: 75vh;
+  width: 55vw;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comm {
+  background-color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-slide {
+  background-color: white;
+}
+.slides {
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.grey {
+  color: lightgray;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+.bike-model {
+  padding: 5px;
+}
+.bike-1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.bike-2 {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.diva {
+  padding: 10px;
+}
+
+.cage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thick {
+  font-size: large;
+  font-weight: bold;
+}
+
+.grey {
+  color: lightgrey;
+}
+
+.hashtag {
+  color: #131212;
+  text-decoration: none;
+}
+
+.grey-2 {
+  color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  padding: 4px;
+}
+
+.black-1 {
+  color: #131212;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  padding: 4px;
+}
+
+.black-hub {
+  padding: 20px;
+}
+
+.spiral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.one {
+  color: #131212;
+  font-weight: bold;
+}
+
+.two {
+  color: gray;
+  font-weight: bold;
+}
+
+.three {
+  color: blue;
+}
+
+.line {
+  padding: 5px;
+}
+
+.linee {
+  padding: 3px;
+  font-size: 10px;
+}
+.liner {
+  margin-right: 5px;
+}
+
+.linerr {
+  width: 5rem;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  text-align: right;
+}
+
+.linerr-1 {
+  width: 2rem;
+  background-color: lightgray;
+  border: none;
+  padding: 6px;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+.abeg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.btnn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(211, 211, 211, 0.356);
+  width: 50%;
+  padding: 24px;
+}
+
+.btn2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  width: 50%;
+  padding: 24px;
+}
+
+@media (max-width: 1024px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bikey {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
